@@ -1,0 +1,21 @@
+Origem do estilo
+
+inline > tag style > tag link
+
+
+Especificidade CSS
+
+É um calculo matemático, onde cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
+
+0. Universal selector, combinators and negation pseudo-class (:not())
+1. Element type selector and pseudo-elements (::before, ::after)
+10. Classes and attribute selectors ([type="radio"])
+100. ID selector
+1000. Inline
+
+
+A regra !important
+
+- Cuidado, evite o uso;
+- não é considerado uma boa prática;
+- quebra o fluxo natural da cascata;
